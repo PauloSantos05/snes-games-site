@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar conta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Fundo retrô fixo -->
+  <div class="bg"></div>
+
+  <!-- Conteúdo centralizado -->
+  <div class="main">
+    <form action="/register" method="POST">
+      <h1>Criar conta</h1>
+
+      <input type="text" name="username" placeholder="Nome de usuário" required>
+      <input type="password" name="password" placeholder="Senha" required>
+
+      <button type="submit">Registrar</button>
+      <a href="/login">Já tem conta? Entrar</a>
+    </form>
+  </div>
+</body>
+</html>
